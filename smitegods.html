@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gods</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- Custom styles for this template -->
+  <link href="assets/css/smitestyles.css" rel="stylesheet">
+</head>
+
+<script>
+var classes = ["mage", "assassin", "guardian", "hunter", "warrior"];
+function myFunction(a) {
+	var i;
+	for(i = 0; i < classes.length; i++) {
+		if(a != classes[i]) {
+			var x = document.getElementsByName(classes[i]);
+			var y;
+			for(y = 0; y < x.length; y++) {
+				x[y].style.display = "none";
+			}
+		}
+	}
+}
+	
+function showMages() {
+	showAll();
+	for(var i = 0; i < classes.length; i++) {
+		if(classes[i] != "mage") {
+			var x = document.getElementsByName(classes[i]);
+			for(var y = 0; y < x.length; y++) {
+				x[y].style.display = "none";
+			}
+		}
+	}
+}
+
+function showAssassins() {
+	showAll();
+	for(var i = 0; i < classes.length; i++) {
+		if(classes[i] != "assassin") {
+			var x = document.getElementsByName(classes[i]);
+			for(var y = 0; y < x.length; y++) {
+				x[y].style.display = "none";
+			}
+		}
+	}
+}
+
+function showGuardians() {
+	showAll();
+	for(var i = 0; i < classes.length; i++) {
+		if(classes[i] != "guardian") {
+			var x = document.getElementsByName(classes[i]);
+			for(var y = 0; y < x.length; y++) {
+				x[y].style.display = "none";
+			}
+		}
+	}
+}
+
+function showHunters() {
+	showAll();
+	for(var i = 0; i < classes.length; i++) {
+		if(classes[i] != "hunter") {
+			var x = document.getElementsByName(classes[i]);
+			for(var y = 0; y < x.length; y++) {
+				x[y].style.display = "none";
+			}
+		}
+	}
+}
+
+function showWarriors() {
+	showAll();
+	for(var i = 0; i < classes.length; i++) {
+		if(classes[i] != "warrior") {
+			var x = document.getElementsByName(classes[i]);
+			for(var y = 0; y < x.length; y++) {
+				x[y].style.display = "none";
+			}
+		}
+	}
+}
+
+function showAll() {
+	for(var i = 0; i < classes.length; i++) {
+		var x = document.getElementsByName(classes[i]);
+		for(var y = 0; y < x.length; y++) {
+			x[y].style.display = "block";
+		}
+	}
+}
+
+</script>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+			</button>
+			<a class="navbar-brand" style="color: #EDDA74;" href="javascript:void(0);" onclick="showAll();">All</a>
+        </div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="javascript:void(0);" onclick="showMages();">Mages</a></li>
+				<li><a href="javascript:void(0);" onclick="showAssassins();">Assassins</a></li>
+				<li><a href="javascript:void(0);" onclick="showGuardians();">Guardians</a></li>
+				<li><a href="javascript:void(0);" onclick="showHunters();">Hunters</a></li>
+				<li><a href="javascript:void(0);" onclick="showWarriors();">Warriors</a></li>
+			</ul>
+        </div>
+      </div>
+    </nav>
+
+	<div class="container big-p">
+		<div class="row-fluid">
+			<a href="smitegods.html"><img class="img-responsive" src="assets/img/smitebeta.png" /></a>
+		</div>
+	</div>
+	
+	<div class="container centered" name="mage">
+			MAGES
+		<div class="row mtb">
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Agni"><img class="img-responsive" src="assets/img/god portraits/Agni.jpg" title="Agni"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Anubis"><img class="img-responsive" src="assets/img/god portraits/Anubis.jpg" title="Anubis"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Ao_Kuang"><img class="img-responsive" src="assets/img/god portraits/Ao_Kuang.jpg" title="Ao Kuang"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Aphrodite"><img class="img-responsive" src="assets/img/god portraits/Aphrodite.jpg" title="Aphrodite"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=ChangE"><img class="img-responsive" src="assets/img/god portraits/ChangE.jpg" title="Chang'e"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Chronos"><img class="img-responsive" src="assets/img/god portraits/Chronos.jpg" title="Chronos"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Freya"><img class="img-responsive" src="assets/img/god portraits/Freya.jpg" title="Freya"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=He_Bo"><img class="img-responsive" src="assets/img/god portraits/He_Bo.jpg" title="He Bo"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Hel"><img class="img-responsive" src="assets/img/god portraits/Hel.jpg" title="Hel"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Isis"><img class="img-responsive" src="assets/img/god portraits/Isis.jpg" title="Isis"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Janus"><img class="img-responsive" src="assets/img/god portraits/Janus.jpg" title="Janus"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Kukulkan"><img class="img-responsive" src="assets/img/god portraits/Kukulkan.jpg" title="Kukulkan"/></a>
+			</div>
+		</div><!--ROW-->
+		<div class="row mtb" name="mage">
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Nox"><img class="img-responsive" src="assets/img/god portraits/Nox.jpg" title="Nox"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Nu_Wa"><img class="img-responsive" src="assets/img/god portraits/Nu_Wa.jpg" title="Nu Wa"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Poseidon"><img class="img-responsive" src="assets/img/god portraits/Poseidon.jpg" title="Poseidon"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Ra"><img class="img-responsive" src="assets/img/god portraits/Ra.jpg" title="Ra"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Scylla"><img class="img-responsive" src="assets/img/god portraits/Scylla.jpg" title="Scylla"/></a>
+			</div>
+			<div class="col-md-4">
+			</div>
+		</div><!--ROW-->
+	</div>
+		
+<!------------------------------------------------------------------------------------ ASSASSINS --------------------------------------------------------------------------------->
+	<div class="container centered" name="assassin">
+			ASSASSINS
+		<div class="row mtb">
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Arachne"><img class="img-responsive" src="assets/img/god portraits/Arachne.jpg" title="Arachne"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Bakasura"><img class="img-responsive" src="assets/img/god portraits/Bakasura.jpg" title="Bakasura"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Bastet"><img class="img-responsive" src="assets/img/god portraits/Bastet.jpg" title="Bastet"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Fenrir"><img class="img-responsive" src="assets/img/god portraits/Fenrir.jpg" title="Fenrir"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Hun_Batz"><img class="img-responsive" src="assets/img/god portraits/Hun_Batz.jpg" title="Hun Batz"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Kali"><img class="img-responsive" src="assets/img/god portraits/Kali.jpg" title="Kali"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Loki"><img class="img-responsive" src="assets/img/god portraits/Loki.jpg" title="Loki"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Mercury"><img class="img-responsive" src="assets/img/god portraits/Mercury.jpg" title="Mercury"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Ne_Zha"><img class="img-responsive" src="assets/img/god portraits/Ne_Zha.jpg" title="Ne Zha"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Nemesis"><img class="img-responsive" src="assets/img/god portraits/Nemesis.jpg" title="Nemesis"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Serqet"><img class="img-responsive" src="assets/img/god portraits/Serqet.jpg" title="Serqet"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Thanatos"><img class="img-responsive" src="assets/img/god portraits/Thanatos.jpg" title="Thanatos"/></a>
+			</div>
+		</div><!--ROW-->
+		<div class="row mtb" name="assassin">
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Thor"><img class="img-responsive" src="assets/img/god portraits/Thor.jpg" title="Thor"/></a>
+			</div>
+			<div class="col-md-11">
+			</div>
+		</div><!--ROW-->
+	</div>
+		
+<!------------------------------------------------------------------------------------ GUARDIANS --------------------------------------------------------------------------------->
+	<div class="container centered" name="guardian">
+			GUARDIANS
+		<div class="row mtb">
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Ares"><img class="img-responsive" src="assets/img/god portraits/Ares.jpg" title="Ares"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Athena"><img class="img-responsive" src="assets/img/god portraits/Athena.jpg" title="Athena"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Bacchus"><img class="img-responsive" src="assets/img/god portraits/Bacchus.jpg" title="Bacchus"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Cabrakan"><img class="img-responsive" src="assets/img/god portraits/Cabrakan.jpg" title="Cabrakan"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Geb"><img class="img-responsive" src="assets/img/god portraits/Geb.jpg" title="Geb"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Hades"><img class="img-responsive" src="assets/img/god portraits/Hades.jpg" title="Hades"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Kumbhakarna"><img class="img-responsive" src="assets/img/god portraits/Kumbhakarna.jpg" title="Kumbhakarna"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Sobek"><img class="img-responsive" src="assets/img/god portraits/Sobek.jpg" title="Sobek"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Sylvanus"><img class="img-responsive" src="assets/img/god portraits/Sylvanus.jpg" title="Sylvanus"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Ymir"><img class="img-responsive" src="assets/img/god portraits/Ymir.jpg" title="Ymir"/></a>
+			</div>
+			<div class="col-md-2">
+			</div>
+		</div><!--ROW-->		
+	</div>
+<!------------------------------------------------------------------------------------ HUNTERS --------------------------------------------------------------------------------->		
+	<div class="container centered" name="hunter">
+			HUNTERS
+		<div class="row mtb">
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Ah_Muzen_Cab"><img class="img-responsive" src="assets/img/god portraits/Ah_Muzen_Cab.jpg" title="Ah Muzen Cab"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Anhur"><img class="img-responsive" src="assets/img/god portraits/Anhur.jpg" title="Anhur"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Apollo"><img class="img-responsive" src="assets/img/god portraits/Apollo.jpg" title="Apollo"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Artemis"><img class="img-responsive" src="assets/img/god portraits/Artemis.jpg" title="Artemis"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Cupid"><img class="img-responsive" src="assets/img/god portraits/Cupid.jpg" title="Cupid"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Neith"><img class="img-responsive" src="assets/img/god portraits/Neith.jpg" title="Neith"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Rama"><img class="img-responsive" src="assets/img/god portraits/Rama.jpg" title="Rama"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Ullr"><img class="img-responsive" src="assets/img/god portraits/Ullr.jpg" title="Ullr"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Xbalanque"><img class="img-responsive" src="assets/img/god portraits/Xbalanque.jpg" title="Xbalanque"/></a>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div><!--ROW-->
+	</div>
+<!------------------------------------------------------------------------------------ WARRIORS --------------------------------------------------------------------------------->
+	<div class="container centered" name="warrior">
+			WARRIORS
+		<div class="row mtb">
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Chaac"><img class="img-responsive" src="assets/img/god portraits/Chaac.jpg" title="Chaac"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Guan_Yu"><img class="img-responsive" src="assets/img/god portraits/Guan_Yu.jpg" title="Guan Yu"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Hercules"><img class="img-responsive" src="assets/img/god portraits/Hercules.jpg" title="Hercules"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Odin"><img class="img-responsive" src="assets/img/god portraits/Odin.jpg" title="Odin"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Osiris"><img class="img-responsive" src="assets/img/god portraits/Osiris.jpg" title="Osiris"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Sun_Wukong"><img class="img-responsive" src="assets/img/god portraits/Sun_Wukong.jpg" title="Sun Wukong"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Tyr"><img class="img-responsive" src="assets/img/god portraits/Tyr.jpg" title="Tyr"/></a>
+			</div>
+			<div class="col-md-1">
+					<a href="smitebuilds.php?god=Vamana"><img class="img-responsive" src="assets/img/god portraits/Vamana.jpg" title="Vamana"/></a>
+			</div>
+			<div class="col-md-4">
+			</div>
+		</div><!--ROW-->
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
