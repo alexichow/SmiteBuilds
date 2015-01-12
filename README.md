@@ -8,7 +8,7 @@ The results of a previous execution of above program is provided in `assets/God 
 
 ## Obtaining Files
 
-`git clone https//https://github.com/alexichow/SmiteBuilds/`
+`git clone https://github.com/alexichow/SmiteBuilds/`
 
 ## Usage
 
